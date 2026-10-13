@@ -35,4 +35,5 @@ int main(){
     }
     printf("Discount:%.2f\n",discount);
     printf("Final Bill:%.2f",sub_total-discount);
+    return 0;
 }

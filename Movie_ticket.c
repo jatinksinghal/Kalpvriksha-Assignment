@@ -7,8 +7,11 @@ int main(){
     char customer_name[50],category[20];
     int  number_of_tickets,ticket_category;
     float sub_total,discount=0,final_bill;
+    printf("Enter Your Name:");
     scanf("%s",customer_name);
+    printf("Enter Number of Ticket:);
     scanf("%d",&number_of_tickets);
+    printf("1.Standard 2.Premium 3.Recliner\nChoose the Category number:");
     scanf("%d",&ticket_category);
     switch (ticket_category){
     case 1:

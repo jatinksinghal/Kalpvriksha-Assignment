@@ -20,12 +20,11 @@ void calculate_the_maximum(int n, int k) {
 }
 
 int main() {
-    int n, k;
+    int number, k;
     printf("Enter Nunber:");
-    scanf("%d",&n);
+    scanf("%d",&number);
     printf("Enter Constant:");
     scanf("%d",&k);
     calculate_the_maximum(n, k);
- 
     return 0;
 }

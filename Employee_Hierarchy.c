@@ -7,7 +7,7 @@ typedef struct {
     int id;
     char name[50];
     char designation[50];
-    int manager_id; /* 0 means no manager */
+    int manager_id; 
     int active;
 } Employee;
 
@@ -195,3 +195,4 @@ int main(void) {
 
     return 0;
 }
+ 

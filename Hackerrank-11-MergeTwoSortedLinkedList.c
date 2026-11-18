@@ -7,6 +7,7 @@ struct Node{
 struct Node* insert_Val_in_node(struct Node *head){
     int num;
     struct Node *temp=NULL,*newnode=NULL;
+    printf("Enter No Of Nodes:");
     scanf("%d",&num);
     for(int i=0;i<num;i++){
         newnode=malloc(sizeof(struct Node));
